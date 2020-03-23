@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "avenir";
+    src: url('../../fonts/AvenirLTStd-Roman.otf') format('opentype');
+    font-weight: normal;
+  }
+
+/* Base */
+html {
+  height: 100%;
+  overflow-x: hidden; }
+
+body {
+  line-height: 1.7;
+  color: gray;
+  background-color: #f8f9fa!important;
+  font-weight: 400;
+  font-family: 'avenir';
+  height: 100%;
+  font-size: 1rem; }
+
+::-moz-selection {
+  background: #000;
+  color: #fff; }
+
+::selection {
+  background: #000;
+  color: #fff; }
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a:hover {
+    text-decoration: none; }
+
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+  font-weight: 400 !important;
+  text-transform: uppercase; }
+
+.border-2 {
+  border-width: 2px; }
+
+.text-black {
+  color: #000 !important; }
+
+.bg-black {
+  background: #000 !important; }
+
+.color-black-opacity-5 {
+  color: rgba(0, 0, 0, 0.5); }
+
+.color-white-opacity-5 {
+  color: rgba(255, 255, 255, 0.5); }
+
+
+

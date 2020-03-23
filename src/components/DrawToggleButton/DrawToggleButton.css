@@ -1,0 +1,26 @@
+
+    .toggle-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 24px;
+        width: 24px;
+        background: transparent;
+        border: none;
+        margin-right: 20px;
+        cursor: pointer;
+        padding: 0;
+      }
+      .toggle-button:focus {
+        outline: none;
+      }
+
+      .toggle__icon {
+        stroke: #fff;
+      }
+
+      .nav.white .toggle__icon {
+        stroke: #000;
+      }
+  
+  
