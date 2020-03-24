@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Tackle Corona`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `A platform that helps Nigerians in tackling coronavirus(COVID-19) pandemic by providing verified information about the virus, its spread, and how to find testing centres in Nigeria`,
+    author: `@waffiihub`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
