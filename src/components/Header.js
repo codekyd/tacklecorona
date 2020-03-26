@@ -1,6 +1,5 @@
 
 import { Link, useStaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
 import PropTypes from "prop-types"
 import React, { useState, useEffect, useRef} from "react"
 import DrawToggleButton from './DrawToggleButton/DrawToggleButton';
