@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "tacklecorona",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A platform that helps Nigerians in tackling coronavirus(COVID-19) pandemic by providing verified information about the virus, its spread, and how to find testing centres in Nigeria",
   "version": "0.1.0",
   "author": "Kyle M>",
   "dependencies": {
@@ -28,13 +28,15 @@
     "prettier": "^1.19.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "coronavirus"
   ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
+    "develop": "env-cmd gatsby develop",
     "dev": "env-cmd -f .env.development gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
